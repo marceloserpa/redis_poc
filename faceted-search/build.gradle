@@ -1,0 +1,14 @@
+
+plugins {
+    id 'eclipse' 
+    id 'java-library'
+}
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+	implementation 'io.lettuce:lettuce-core:5.3.3.RELEASE'
+    testImplementation 'junit:junit:4.12'
+}
